@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+
+# Mac folder data
+.DS_Store
+
+# Vim swap files
+*.swp
