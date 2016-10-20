@@ -7,10 +7,9 @@ struct VirtualDestructor {
 };
 
 struct AbstractClass {
+  virtual ~AbstractClass() {}
   virtual void a_member_function() = 0;
-  virtual void another_member_function();
 };
-void AbstractClass::a_member_function() {}
 
 
 struct ClassWithFunction {
